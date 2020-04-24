@@ -11,7 +11,7 @@ const connectDatabase = require("./configuration/database");
 const methodOverride = require("method-override");
 const app = express();
 
-const port = process.env.PORT || 5000;
+const port = process.env.port || 5000;
 const Theme = require("./models/Theme");
 
 // passport setup
